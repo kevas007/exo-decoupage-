@@ -32,7 +32,7 @@ header {
 
 .logo img {
   height: 50px;
-  margin-left: 100px;
+  margin-left: 0;
 }
 
 #champs_newsletter div {
@@ -60,25 +60,28 @@ nav {
 nav .logo {
   border-right: solid 0.5px gray;
   padding: 3vh;
-  margin-right: 20px;
+  margin-left: 0;
 
 }
 
 .menu {
   padding: 2px;
+  display: flex;
+  align-items:center ;
 }
 
 .menu ul li:last-child {
   margin-left: 10px;
   width: fit-content;
 }
-
+.menu ul {
+  display: flex;
+  align-items: center;
+}
 .menu ul li {
   margin-left: 90px;
   border-left: 1px;
-  vertical-align: middle;
-  display: inline;
-  float: left;
+  
   display: inline-block;
 }
 
@@ -100,7 +103,7 @@ nav ul {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-
+  margin: 0;
 
 }
 
@@ -125,8 +128,7 @@ nav ul:first-child {
 nav li:last-child {
   right: 0%;
   border-left: solid 0.5px gray;
-  padding: 3vh;
-  margin-right: 20px;
+  
 
 
 
@@ -172,7 +174,7 @@ footer {
   text-align: center;
   background-color: #353638;
   margin: auto;
-  height: 200px;
+ 
 }
 
 .section {
@@ -192,4 +194,7 @@ footer {
 
 footer div a {
   text-decoration: none;
+}
+footer p {
+  margin-bottom: 0;
 }
