@@ -128,8 +128,9 @@ nav ul:first-child {
 nav li:last-child {
   right: 0%;
   border-left: solid 0.5px gray;
-  
-
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
 
 
 }
@@ -183,6 +184,7 @@ footer {
   height: 50px;
   border-bottom: white solid 1px;
   width: 100%;
+ 
 }
 
 .ilyas {
