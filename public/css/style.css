@@ -67,21 +67,23 @@ nav .logo {
 .menu {
   padding: 2px;
   display: flex;
-  align-items:center ;
+  align-items: center;
 }
 
 .menu ul li:last-child {
   margin-left: 10px;
   width: fit-content;
 }
+
 .menu ul {
   display: flex;
   align-items: center;
 }
+
 .menu ul li {
   margin-left: 90px;
   border-left: 1px;
-  
+
   display: inline-block;
 }
 
@@ -128,7 +130,7 @@ nav ul:first-child {
 nav li:last-child {
 
   border-left: solid 1px gray;
- height:50px;
+  height: 50px;
 
   padding-top: 20px;
   padding-left: 100px;
@@ -177,7 +179,7 @@ footer {
   text-align: center;
   background-color: #353638;
   margin: auto;
- 
+
 }
 
 .section {
@@ -186,7 +188,7 @@ footer {
   height: 50px;
   border-bottom: white solid 1px;
   width: 100%;
- 
+
 }
 
 .ilyas {
@@ -199,6 +201,7 @@ footer {
 footer div a {
   text-decoration: none;
 }
+
 footer p {
   margin-bottom: 0;
 }
