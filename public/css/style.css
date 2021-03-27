@@ -59,7 +59,7 @@ nav {
 
 nav .logo {
   border-right: solid 0.5px gray;
-  padding: 3vh;
+
   margin-left: 0;
 
 }
@@ -126,9 +126,11 @@ nav ul:first-child {
 }
 
 nav li:last-child {
-  right: 0%;
-  border-left: solid 0.5px gray;
-  width: 100%;
+
+  border-left: solid 1px gray;
+ height:50px;
+
+  padding-top: 20px;
   padding-left: 100px;
   padding-right: 100px;
 
